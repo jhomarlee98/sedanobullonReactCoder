@@ -1,6 +1,7 @@
 import React from 'react'
 import { Navbar, Container, Nav, NavDropdown,Offcanvas,Form,FormControl,Button } from 'react-bootstrap'
 import './NavBar.css'
+import CarWidget from "../carWidget/CarWidget";
 
 const NavBar = () => {
     return (
@@ -17,6 +18,7 @@ const NavBar = () => {
                         <Nav.Link href="#cursos">Cursos</Nav.Link>
                         <Nav.Link href="#carreras">Lineas de carrera</Nav.Link>
                     </Nav>
+                    <CarWidget />
                 </Navbar.Collapse>
             </Container>
         </Navbar>
