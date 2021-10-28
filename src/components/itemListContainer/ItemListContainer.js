@@ -5,7 +5,7 @@ import {Card,Button} from 'react-bootstrap'
 function ItemListContainer({greeting}) {
     return (
         <>
-            <Card>
+            <Card className="my-3">
                 <Card.Header>Bienvido {greeting}</Card.Header>
                 <Card.Body>
                     <Card.Title>¿Que deseas aprender hoy?</Card.Title>
